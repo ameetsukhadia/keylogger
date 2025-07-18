@@ -5,7 +5,7 @@ from cryptography.fernet import Fernet
 from threading import Timer
 
 # === Configuration ===
-ENCRYPTION_KEY = b'aWOfZVnlPt0NiEp1YyiAi3E0AgTyTPmxlir0an4H-Bw='  # Replace with your AES key from generate_key.py
+ENCRYPTION_KEY = b'place your key here'  # Replace with your AES key from generate_key.py
 SERVER_URL = "http://127.0.0.1:5000/upload"  # Change to your server
 SEND_INTERVAL = 300  # Send data every 5 minutes (300 seconds)
 
