@@ -1,6 +1,6 @@
 from cryptography.fernet import Fernet
 
-ENCRYPTION_KEY = b'aWOfZVnlPt0NiEp1YyiAi3E0AgTyTPmxlir0an4H-Bw='
+ENCRYPTION_KEY = b'place key here'
 
 cipher = Fernet(ENCRYPTION_KEY)
 
