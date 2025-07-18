@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 app = Flask(__name__)
 
 # ✅ Replace with your AES Key
-ENCRYPTION_KEY = b'aWOfZVnlPt0NiEp1YyiAi3E0AgTyTPmxlir0an4H-Bw='
+ENCRYPTION_KEY = b'Place key here'
 cipher = Fernet(ENCRYPTION_KEY)
 
 @app.route('/', methods=['GET', 'POST'])
